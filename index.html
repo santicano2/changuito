@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Changuito - Tracker de Precios</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Literata:opsz,wght@7..72,500;7..72,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <p class="eyebrow">Datos abiertos + cero backend</p>
+        <h1>Changuito</h1>
+        <p class="subtitle">Segui como evolucionan los precios en supermercados cercanos.</p>
+      </header>
+
+      <section class="controls">
+        <label for="productSearch">Producto</label>
+        <input id="productSearch" type="search" placeholder="Ej: Yerba, leche, aceite" />
+
+        <label for="storeSelect">Sucursal</label>
+        <select id="storeSelect">
+          <option value="">Selecciona una sucursal</option>
+        </select>
+
+        <button id="locateBtn" type="button">Usar mi ubicacion</button>
+        <p id="statusText" class="status">Cargando datos...</p>
+      </section>
+
+      <section class="results">
+        <div class="card">
+          <h2>Evolucion de precio</h2>
+          <div id="chart" class="chart"></div>
+        </div>
+        <div class="card">
+          <h2>Resumen</h2>
+          <div id="summary"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

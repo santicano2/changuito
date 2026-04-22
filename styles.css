@@ -1,0 +1,135 @@
+:root {
+  --bg: #f6f1e8;
+  --bg-alt: #fffaf2;
+  --text: #2b1f12;
+  --muted: #6f5a44;
+  --primary: #0a7a52;
+  --primary-dark: #07563a;
+  --card: #fffdf8;
+  --border: #e2d7c8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Chivo, sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top right, #ffe8b7 0%, transparent 40%),
+    radial-gradient(circle at left 70%, #c5f0de 0%, transparent 30%),
+    var(--bg);
+  min-height: 100vh;
+}
+
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.2rem;
+}
+
+.hero h1 {
+  margin: 0;
+  font-family: Literata, serif;
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+}
+
+.eyebrow {
+  margin: 0;
+  color: var(--primary-dark);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.subtitle {
+  color: var(--muted);
+  margin-top: 0.4rem;
+}
+
+.controls,
+.card {
+  background: color-mix(in srgb, var(--card) 88%, white);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(52, 31, 12, 0.08);
+}
+
+.controls {
+  margin-top: 1rem;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.6rem;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  padding: 0.65rem;
+  font: inherit;
+}
+
+button {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--primary-dark);
+}
+
+.status {
+  margin: 0;
+  color: var(--muted);
+}
+
+.results {
+  margin-top: 1rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+.card {
+  padding: 0.9rem;
+}
+
+.card h2 {
+  margin: 0 0 0.8rem;
+  font-family: Literata, serif;
+}
+
+.chart {
+  height: 360px;
+  width: 100%;
+}
+
+.summary-list {
+  margin: 0;
+  padding-left: 1rem;
+  line-height: 1.7;
+}
+
+@media (min-width: 900px) {
+  .controls {
+    grid-template-columns: 1fr 1fr auto;
+    align-items: end;
+  }
+
+  .controls .status {
+    grid-column: 1 / -1;
+  }
+
+  .results {
+    grid-template-columns: 2fr 1fr;
+  }
+}
