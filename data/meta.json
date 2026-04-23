@@ -1,0 +1,44 @@
+{
+  "updated_at": "2026-04-23T10:07:00.082335Z",
+  "dataset": "Precios Claros - Base SEPA",
+  "dataset_id": "sepa-precios",
+  "ckan_base_url": "https://datos.produccion.gob.ar",
+  "sources": [
+    {
+      "resource_id": "1e92cd42-4f94-4071-a165-62c4cb2ce23c",
+      "resource_name": "Miércoles",
+      "resource_url": "https://datos.produccion.gob.ar/dataset/6f47ec76-d1ce-4e34-a7e1-621fe9b1d0b5/resource/1e92cd42-4f94-4071-a165-62c4cb2ce23c/download/sepa_miercoles.zip",
+      "source_date": "2026-04-22"
+    },
+    {
+      "resource_id": "9dc06241-cc83-44f4-8e25-c9b1636b8bc8",
+      "resource_name": "Martes",
+      "resource_url": "https://datos.produccion.gob.ar/dataset/6f47ec76-d1ce-4e34-a7e1-621fe9b1d0b5/resource/9dc06241-cc83-44f4-8e25-c9b1636b8bc8/download/sepa_martes.zip",
+      "source_date": "2026-04-21"
+    },
+    {
+      "resource_id": "0a9069a9-06e8-4f98-874d-da5578693290",
+      "resource_name": "Lunes",
+      "resource_url": "https://datos.produccion.gob.ar/dataset/6f47ec76-d1ce-4e34-a7e1-621fe9b1d0b5/resource/0a9069a9-06e8-4f98-874d-da5578693290/download/sepa_lunes.zip",
+      "source_date": "2026-04-20"
+    }
+  ],
+  "filters": {
+    "provinces": [
+      "AR-B",
+      "AR-C",
+      "BUENOS AIRES",
+      "CIUDAD AUTONOMA DE BUENOS AIRES"
+    ],
+    "max_records_per_day": 120000,
+    "max_snapshots": 45,
+    "max_resources_per_run": 3,
+    "max_products": 3000,
+    "max_stores": 180
+  },
+  "totals": {
+    "products": 8472,
+    "stores": 259,
+    "history_keys": 8472
+  }
+}
