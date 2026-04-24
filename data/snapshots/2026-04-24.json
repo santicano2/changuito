@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-24",
+  "resources_processed": [
+    {
+      "id": "d076720f-a7f0-4af8-b1d6-1b99d5a90c14",
+      "name": "Jueves",
+      "date": "2026-04-23",
+      "url": "https://datos.produccion.gob.ar/dataset/6f47ec76-d1ce-4e34-a7e1-621fe9b1d0b5/resource/d076720f-a7f0-4af8-b1d6-1b99d5a90c14/download/sepa_jueves.zip"
+    },
+    {
+      "id": "1e92cd42-4f94-4071-a165-62c4cb2ce23c",
+      "name": "Miércoles",
+      "date": "2026-04-22",
+      "url": "https://datos.produccion.gob.ar/dataset/6f47ec76-d1ce-4e34-a7e1-621fe9b1d0b5/resource/1e92cd42-4f94-4071-a165-62c4cb2ce23c/download/sepa_miercoles.zip"
+    },
+    {
+      "id": "9dc06241-cc83-44f4-8e25-c9b1636b8bc8",
+      "name": "Martes",
+      "date": "2026-04-21",
+      "url": "https://datos.produccion.gob.ar/dataset/6f47ec76-d1ce-4e34-a7e1-621fe9b1d0b5/resource/9dc06241-cc83-44f4-8e25-c9b1636b8bc8/download/sepa_martes.zip"
+    }
+  ],
+  "products_added": 6159,
+  "stores_added": 225,
+  "history_keys": 6159
+}
