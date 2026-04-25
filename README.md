@@ -27,28 +27,6 @@ Aplicacion web para seguir precios de productos en supermercados de Argentina us
 - `data/meta.json`: metadatos de la ultima actualizacion
 - `data/snapshots/`: resumen por corrida
 
-## Requisitos
-
-- Python 3.10 o superior
-
-## Uso local
-
-1) Generar datos:
-
-```bash
-python scripts/update_data.py
-```
-
-2) Levantar servidor local:
-
-```bash
-python -m http.server 8000
-```
-
-3) Abrir en el navegador:
-
-`http://localhost:8000`
-
 ## Variables opcionales
 
 - `PROVINCES`: provincias a incluir separadas por coma
