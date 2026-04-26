@@ -1,6 +1,6 @@
 # Changuito
 
-Aplicacion web para seguir precios de productos en supermercados de Argentina usando datos abiertos de SEPA (Precios Claros).
+Aplicacion web para seguir precios de productos en supermercados de Argentina usando datos abiertos de SEPA (Precios Claros)
 
 ## Objetivo
 
