@@ -1,9 +1,15 @@
 {
-  "updated_at": "2026-04-30T10:26:40.728514Z",
+  "updated_at": "2026-05-01T10:05:53.937945Z",
   "dataset": "Precios Claros - Base SEPA",
   "dataset_id": "sepa-precios",
   "ckan_base_url": "https://datos.produccion.gob.ar",
   "sources": [
+    {
+      "resource_id": "d076720f-a7f0-4af8-b1d6-1b99d5a90c14",
+      "resource_name": "Jueves",
+      "resource_url": "https://datos.produccion.gob.ar/dataset/6f47ec76-d1ce-4e34-a7e1-621fe9b1d0b5/resource/d076720f-a7f0-4af8-b1d6-1b99d5a90c14/download/sepa_jueves.zip",
+      "source_date": "2026-04-30"
+    },
     {
       "resource_id": "1e92cd42-4f94-4071-a165-62c4cb2ce23c",
       "resource_name": "Miércoles",
@@ -15,12 +21,6 @@
       "resource_name": "Martes",
       "resource_url": "https://datos.produccion.gob.ar/dataset/6f47ec76-d1ce-4e34-a7e1-621fe9b1d0b5/resource/9dc06241-cc83-44f4-8e25-c9b1636b8bc8/download/sepa_martes.zip",
       "source_date": "2026-04-28"
-    },
-    {
-      "resource_id": "0a9069a9-06e8-4f98-874d-da5578693290",
-      "resource_name": "Lunes",
-      "resource_url": "https://datos.produccion.gob.ar/dataset/6f47ec76-d1ce-4e34-a7e1-621fe9b1d0b5/resource/0a9069a9-06e8-4f98-874d-da5578693290/download/sepa_lunes.zip",
-      "source_date": "2026-04-27"
     }
   ],
   "filters": {
@@ -37,8 +37,8 @@
     "max_stores": 180
   },
   "totals": {
-    "products": 12707,
+    "products": 14257,
     "stores": 441,
-    "history_keys": 12707
+    "history_keys": 14257
   }
 }
